@@ -1,7 +1,6 @@
 # CRT based Java Programs
 This repository contains beginner-level Java programs organized into levels based on complexity and concepts. These are helpful for understanding the fundamentals of Java programming like conditionals, loops, character handling, and user input.
 
-
 - Level 1
 : Fundamental Programs
  These programs cover basic operations such as ASCII values, digit counting, and conditional comparisons.
