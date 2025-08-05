@@ -17,12 +17,19 @@ public class half{
             // divide total array by 2 -1 to get the mid element 
             // printing first part in reverse order 
             for(int i= (n/2)-1 ; i >= 0 ; i-- ){
-                System.out.print(a[i]);
+                System.out.print(a[i]+" ");
             }
             // printing second part in reverse order 
             for(int i = n-1 ; i>= n/2 ; i--){
-                System.out.print(a[i]);
+                System.out.print(a[i]+" ");
             }
         }
+        //if 2 elements are there 
+        else if(n <= 2){
+            for(int i = n-1 ; i>= 0 ; i--){
+                System.out.print(a[i]+" ");  // reverse the entire array
+            }
+        }
+        
 }
 }
