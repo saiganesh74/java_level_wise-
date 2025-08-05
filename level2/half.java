@@ -9,8 +9,8 @@ public class half{
         int[] a = new int[n];  
         //read elements 
         for(int i = 0; i < n; i++) {
-            a[i]= in.nextInt();                 // 2 3 5 9 8 9
-                                                // 0 1 2 3 4 5
+            a[i]= in.nextInt();                 // 2 3 
+                                                // 0 1 
         }
         //if array has more than 2 elements
         if(n > 2){
@@ -24,7 +24,7 @@ public class half{
                 System.out.print(a[i]+" ");
             }
         }
-        //if 2 elements are there 
+        //if 2 or less elements are there 
         else if(n <= 2){
             for(int i = n-1 ; i>= 0 ; i--){
                 System.out.print(a[i]+" ");  // reverse the entire array
